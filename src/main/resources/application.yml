@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      #      authentication-database: admin
+      database: LibraryWeb
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+      embedded:
+        version: 3.3.4

@@ -1,0 +1,41 @@
+
+spring:
+  shell:
+    interactive:
+      enabled: false
+
+  data:
+    mongodb:
+      port: 0
+      database: test
+  datasource:
+    initialization-mode: never
+
+
+
+#  datasource:
+#    url: jdbc:h2:mem:book
+#    initialization-mode: always
+#    username: egor
+#    password: 123
+#    schema: schema_book.sql
+#    data: data.sql
+#  main:
+#    allow-bean-definition-overriding: true
+
+#  jpa:
+#    show-sql: true
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: none
+#    shell:
+#      interactive:
+#        enable: false
+#
+#    properties:
+#      hibernate:
+#        format_sql: true
+
+logging:
+  level:
+    root: ERROR
